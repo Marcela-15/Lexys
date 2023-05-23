@@ -5,7 +5,7 @@
 }
 
 
-
+body{margin: 0;}
 
 
 
@@ -86,5 +86,6 @@
     background-color: #eec201;
     margin: 0;
     padding: 10px;
+    text-align: center;
 }
 

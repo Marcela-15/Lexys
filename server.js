@@ -19,7 +19,7 @@ http.createServer((request, response)=> {
                   response.write('Error while saving');
                   response.end();
                 } else {
-                    response.writeHead(302, { 'Location': './formulario.html' });
+                    response.writeHead(302, { 'Location': './contact.html' });
                     response.end();
                 }
               });
