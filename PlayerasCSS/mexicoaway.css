@@ -1,0 +1,86 @@
+@import url(https://fonts.google.com/specimen/Ubuntu);
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+  margin: 0;
+  background-color: black;
+}
+
+
+
+
+
+/* Header */
+.header{
+    text-align: center;
+    background-color: #474747;
+}
+
+
+
+
+
+
+
+
+
+/* Top barra navegacion */
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #d8b000;
+    color: white;
+  }
+
+
+
+
+
+/* Botones jerseys */
+.grid-container {
+    display: grid;
+    gap: 70px 300px;
+    grid-template-columns: auto auto auto;
+    background-color: #000000;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(141, 141, 141, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+.descJerseys{
+    font-weight: bold;
+    font-size: large;
+}
